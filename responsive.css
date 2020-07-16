@@ -62,7 +62,16 @@
   button {
       height: 60px;
   }
+}
 
- 
+@media all and (max-width: 375px) {
+    body {
+        background-image:url(gradient_android.png);
+        width: 99%;
+        left: 0px;
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+    }
 
 }
