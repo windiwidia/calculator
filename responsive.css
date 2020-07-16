@@ -67,11 +67,15 @@
 @media all and (max-width: 375px) {
     body {
         background-image:url(gradient_android.png);
-        width: 99%;
+        width: 96%;
         left: 0px;
         background-size: cover;
         position: relative;
         background-repeat: no-repeat;
     }
 
-}
+    .homepage {
+        margin-top: 80px;
+        margin-bottom: 120px;
+    }
+
